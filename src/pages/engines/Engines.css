@@ -1,0 +1,139 @@
+.search-bar {
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+  }
+  
+  .create-button {
+    background-color: green;
+    color: white;
+  }
+  
+ .search-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+ }
+ .search-container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    color: var(--dark);
+ }
+ .search-container select{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    color: var(--dark);
+    background-color: white;
+ }
+
+  .sort-button {
+    background-color: black;
+    color: white;
+  }
+
+
+  .table-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;  
+  
+  }
+   tbody tr td button:nth-child(1){
+    background-color: transparent; /* Зеленый цвет */
+    color: black;
+    overflow: hidden;
+ 
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+   }
+
+  .set-default {
+    background-color: transparent; /* Зеленый цвет */
+    color: black;
+    overflow: hidden;
+ 
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagination {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  }
+  .pagination .btns{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .pagination .btns button{
+    background-color: transparent; /* Зеленый цвет */
+    color: black;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  .pagination .btns button:hover{
+    background-color: black;
+    color: white;
+  }
+  .pagination .btns button:nth-child(1){
+    background-color: transparent; /* Зеленый цвет */
+    color: black;
+    overflow: hidden;
+ 
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+  } 
+  .pagination .btns button:nth-child(1):hover{
+    background-color: black;
+    color: white;
+  } 

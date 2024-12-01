@@ -1,0 +1,90 @@
+/* Контейнер */
+.user-profile-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Форма */
+  .user-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Ряды формы */
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  small {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  /* Радио-группа */
+  .radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  
+  .radio-group input {
+    margin-right: 8px;
+  }
+  
+  /* Селектор Gravatar */
+  .toggle-switch {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-switch input {
+    margin-right: 8px;
+  }
+  
+  /* Кнопка обновления */
+  .update-btn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-btn:hover {
+    background-color: #c40812;
+  }
+  

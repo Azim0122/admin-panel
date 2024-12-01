@@ -1,0 +1,110 @@
+/* Основной контейнер */
+.plugin-list-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Таблица */
+  .plugin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .plugin-table th,
+  .plugin-table td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .plugin-table th {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .plugin-table td {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Метаданные плагина */
+  .plugin-meta {
+    color: #666;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .details-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .details-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Кнопки действий */
+  .action-btn {
+    padding: 8px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .enable {
+    background-color: #28a745;
+  }
+  
+  .disable {
+    background-color: #dc3545;
+  }
+  
+  .delete {
+    background-color: #ff4d4f;
+  }
+  
+  .action-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Пагинация */
+  .pagination {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .pagination-btn {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .pagination-btn.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination-btn:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Информация о количестве записей */
+  .entries-info {
+    font-size: 14px;
+    color: #666;
+  }
+  
